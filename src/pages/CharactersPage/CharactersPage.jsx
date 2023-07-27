@@ -8,7 +8,7 @@ import logo from '/src/assets/logo_characters.png'
 import s from "../../styles/CollectionPage.module.scss";
 
 const CharactersPage = () => {
-    const { characters, next, params, loading } = useSelector(state => state.characters);
+    const { characters, next, params, loading, error } = useSelector(state => state.characters);
     const dispatch = useDispatch();
 
     useEffect(() => {

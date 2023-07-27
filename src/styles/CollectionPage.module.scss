@@ -9,6 +9,21 @@
     grid-template-columns: repeat(4,1fr);
     grid-gap: 20px;
   }
+  &__error {
+    color: #da0909;
+    font-family: Karla;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    box-shadow: 2px 0 18px 2px #bd1515;
+    padding: 20px 40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 660px) {
